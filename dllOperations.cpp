@@ -99,7 +99,7 @@ public:
     void d_addatbeg(int num)
     {
         dnode *temp,*tempoo;
-        temp=new dnode;           // for both NULL d.l.l. and readymade d.l.l. code will be same.
+        temp=new dnode;           // for both NULL d.l.l. and existing d.l.l. code will be same.
         temp->data=num;
         temp->prev=NULL;
         temp->next=head;
